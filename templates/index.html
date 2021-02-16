@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+
+	<form action="{{ url_for('predict')}}" method="post">
+
+		<span class="outputpred"><h3>{{ prediction_texts }}<h3></span>
+
+		<h2>Diabetes Prediction for Women</h2><br>
+
+		<div class="row">
+			<div class="col-1"><label for="pregnant">Number of times pregnant:</label></div>
+			<div class="col-2"><input type="number" min="1" max="20" id="pregnant" name="pregnant"></div>
+			</div>
+			<br><br>
+
+			<div class="row">
+				<div class="col-1"><label for="age">Age (years):</label></div>
+				<div class="col-2"><input type="number" min="1" max="100" id="age" name="age"></div>
+				</div>
+				<br><br>
+
+				<div class="row">
+					<div class="col-1"><label for="glucose">Plasma glucose concentration:</label></div>
+					<div class="col-2"><input type="text" id="glucose" name="glucose" required></div>
+					</div>
+					<br><br>
+
+					<div class="row">
+						<div class="col-1"><label for="bloodpressure">Diastolic blood pressure(mm Hg):</label></div>
+						<div class="col-2"><input type="text" id="bloodpressure" name="bloodpressure" required></div>
+						</div>
+						<br><br>
+
+						<div class="row">
+							<div class="col-1"><label for="thickness">Triceps skin fold thickness(mm):</label></div>
+							<div class="col-2"><input type="text" id="thickness" name="thickness" required></div>
+							</div>
+							<br><br>
+
+							<div class="row">
+								<div class="col-1"><label for="insulin">serum insulin(mu U/ml):</label></div>
+								<div class="col-2"><input type="text" id="insulin" name="insulin" required></div>
+								</div>
+								<br><br>
+
+								<div class="row">
+									<div class="col-1"><label for="weight">Weight (kg):</label></div>
+									<div class="col-2"><input type="text" id="weight" name="weight" required></div>
+									</div>
+									<br><br>
+
+									<div class="row">
+										<div class="col-1"><label for="height">Height (m):</label></div>
+										<div class="col-2"><input type="text" id="height" name="height" required></div>
+										</div>
+										<br><br>
+
+										<div class="row">
+											<div class="col-1"><label for="pedigree">Diabetes pedigree function:</label>
+											</div>
+											<div class="col-2">
+												<input type="text" id="pedigree" name="pedigree" required></div>
+											</div>
+											<br><br>
+
+											<br><br>
+
+											<div class="row"><button id="sub" type="submit ">Check</button></div>
+											<br>
+
+   </form>
+											<style>
+												body {
+													background-image: url("/static/img/image.jpg");
+													background-repeat: no-repeat;
+													background-size: cover;
+													background-attachment: fixed;
+													background-position: center;
+												}
+
+
+
+												form {
+													color: Red;
+													font-size: 25px;
+                          margin: 1% 15%;
+                          padding:2% 5%;
+													border: 1px solid black;
+													background-color: grey;
+													background-color: rgb(0, 0, 0, 0.6);
+												}
+
+												h2 {
+													color: #b836ff;
+													text-align: center;
+												}
+
+												label {
+													color: white;
+													text-align: left;
+													padding: 12px 12px 12px 0;
+													display: inline-block;
+												}
+
+												label:hover {
+													font-size: 30px;
+													;
+												}
+
+
+
+												input {
+													width: 40%;
+													padding: 10px;
+													border: 1px solid #ccc;
+													border-radius: 4px;
+													resize: vertical;
+												}
+
+												.col-1 {
+													text-align: left;
+													float: left;
+													width: 45%;
+													margin-top: 6px;
+													padding-left: 180px;
+												}
+
+												.col-2 {
+													float: right;
+													width: 30%;
+													margin-top: 6px;
+                      
+												}
+
+												#sub {
+													width: 120px;
+													height: 50px;
+													text-align: center;
+													border-radius: 14px;
+													font-size: 18px;
+													margin: 0% 40%;
+												}
+
+												#sub:hover {
+													background-color: grey;
+												}
+
+
+												.outputpred {
+													text-align: center;
+												}
+											</style>
+</body>
+
+</html>
