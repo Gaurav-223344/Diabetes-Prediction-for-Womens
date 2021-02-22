@@ -20,4 +20,4 @@
 ## Demo
 Link: [https://womendiabetesprediction.herokuapp.com/](https://womendiabetesprediction.herokuapp.com/)
 
-[![](https://res.cloudinary.com/grohealth/image/upload/f_auto,fl_lossy,q_auto/v1581692228/DCUK/Content/iStock-9217203841.jpg)](https://womendiabetesprediction.herokuapp.com/)
+[![](https://res.cloudinary.com/grohealth/image/upload/$wpsize_!_cld_full!,w_1200,h_630,c_scale/v1588094388/How-to-Bring-Down-High-Blood-Sugar-Levels-1.png)](https://womendiabetesprediction.herokuapp.com/)
