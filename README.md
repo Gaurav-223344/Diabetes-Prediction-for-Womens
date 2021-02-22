@@ -8,11 +8,8 @@
   * [Run](#run)
   * [Deployement on Heroku](#deployement-on-heroku)
   * [Directory Tree](#directory-tree)
-  * [To Do](#to-do)
-  * [Bug / Feature Request](#bug---feature-request)
   * [Technologies Used](#technologies-used)
   * [Team](#team)
-  * [License](#license)
   * [Credits](#credits)
 
 
@@ -78,20 +75,14 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 ├── static
 │   └── img
 │       └── img.jpg
+├── model.pkl
+├── Pima Indian ---Diabetes Prediction.ipynb
+├── diabetes.csv
 ├── requirements.txt
 ├── Procfile
 └── README.md
 
 ```
-
-## To Do
-1. Convert the app to run without any internet connection, i.e. __PWA__.
-2. Add a better vizualization chart to display the predictions.
-
-## Bug / Feature Request
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/rowhitswami/Indian-Currency-Prediction/issues/new) by including your search query and the expected result.
-
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/rowhitswami/Indian-Currency-Prediction/issues/new). Please include sample queries and their corresponding results.
 
 ## Technologies Used
 
@@ -102,26 +93,8 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 [<img target="_blank" src="https://sentry-brand.storage.googleapis.com/sentry-logo-black.png" width=270>](https://www.sentry.io/) [<img target="_blank" src="https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png" width=100>](https://jquery.com/)
 
 ## Team
-[![Rohit Swami](https://avatars1.githubusercontent.com/u/16516296?v=3&s=144)](https://rohitswami.com/) |
--|
-[Rohit Swami](https://rohitswami.com/) |)
+[Gaurav-Gaikwad](https://github.com/Gaurav-223344)
 
-## License
-[![Apache license](https://img.shields.io/badge/license-apache-blue?style=for-the-badge&logo=appveyor)](http://www.apache.org/licenses/LICENSE-2.0e)
-
-Copyright 2020 Rohit Swami
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
 
 ## Credits
-- [Google Images Download](https://github.com/hardikvasa/google-images-download) - This project wouldn't have been possible without this tool. It saved my enormous amount of time while collecting the data. A huge shout-out to its creator [Hardik Vasa](https://github.com/hardikvasa).
+- [Pima Indians Diabetes Dataset(Kaggle)](https://www.kaggle.com/uciml/pima-indians-diabetes-database) - This project wouldn't have been possible without this dataset. It saved my enormous amount of time while collecting the data. A huge shout-out to [Krish-Naik](https://github.com/krishnaik06) for amazing guidlines from his youtube videos on end to end projects with deployement[check here](https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig).
