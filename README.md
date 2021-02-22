@@ -97,4 +97,4 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 
 
 ## Credits
-- [Pima Indians Diabetes Dataset(Kaggle)](https://www.kaggle.com/uciml/pima-indians-diabetes-database) - This project wouldn't have been possible without this dataset. It saved my enormous amount of time while collecting the data. A huge shout-out to [Krish-Naik](https://github.com/krishnaik06) for amazing guidlines from his youtube videos on end to end projects with deployement[check here](https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig).
+- [Pima Indians Diabetes Dataset(Kaggle)](https://www.kaggle.com/uciml/pima-indians-diabetes-database) - This project wouldn't have been possible without this dataset. It saved my enormous amount of time while collecting the data. A huge shout-out to [Krish-Naik](https://github.com/krishnaik06) for amazing guidlines from his youtube videos on end to end projects with deployement. [check here](https://www.youtube.com/playlist?list=PLZoTAELRMXVPUyxuK8AphGMuIJHTyuWna)
