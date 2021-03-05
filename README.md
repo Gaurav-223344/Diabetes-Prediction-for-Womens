@@ -1,4 +1,4 @@
-# Womens Diabetes Prediction (Practice Project)
+# Diabetes-Prediction-for-Womens (Practice Project)
 
 ## Table of Content
   * [Overview](#overview)
