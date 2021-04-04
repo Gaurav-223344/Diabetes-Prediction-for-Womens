@@ -27,7 +27,7 @@ def predict():
         
         
         prediction=model.predict([[Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age]])
-        output=(prediction[0],2)
+        output=(prediction[0])
         if output==0:
             return render_template('index.html',prediction_texts="You Don't Have Diabetes")
         else:
@@ -41,7 +41,7 @@ def predict():
     
     
 if __name__=="__main__":
-        app.run(debug=True)
+    app.run(debug=True)
     
     
 # if __name__=="__main__":
